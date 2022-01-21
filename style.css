@@ -1,0 +1,33 @@
+body {
+    text-align: left;
+}
+
+.content {
+    padding-left: 3rem;
+}
+
+#intro {
+    background-color: #423e44;
+    color: aliceblue;
+    min-width: 100%;
+}
+#side-bar {
+    background-color: #5774ff;
+    color: #e8fff0;
+}
+
+.box-info {
+    margin-top: 5%;
+    margin-left: 80%;
+}
+
+.option {
+    margin-top: 1rem;
+    color: black;
+}
+
+label {
+    display: inline-block;
+    float: right;
+}
+

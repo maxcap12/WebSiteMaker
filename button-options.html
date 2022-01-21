@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>options</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="card box-info" id="button-option" style="width: 20%;">
+        <div class="card-body">
+            <h3 class="card-title" style="text-align: center">Button options</h3>
+            <form action="#">
+                <h5 class="card-subtitle mb-2 option">Height :
+                    <label>
+                        <input type="number" min="1" max="100" step="1" value="6">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Width :
+                    <label>
+                        <input type="number" min="1" max="100" step="1" value="6">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Background color :
+                    <label>
+                        <input type="color">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Border color :
+                    <label>
+                        <input type="color">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Border radius :
+                    <label>
+                        <input type="number" min="0" max="20" step="1" value="1">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Border width :
+                    <label>
+                        <input type="number" min="1" max="20" step="1" value="1">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Text :
+                    <label>
+                        <input type="text" size="15">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Text color :
+                    <label>
+                        <input type="color">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Text alignment :
+                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-dark" for="btnradio1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btnradio2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-center" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                        <label class="btn btn-outline-dark" for="btnradio3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </label>
+                    </div>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Left margin :
+                    <label>
+                        <input type="number" min="0" max="100" step="1" value="0">
+                    </label>
+                </h5>
+                <h5 class="card-subtitle mb-2 option">Type :
+                    <label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>button</option>
+                            <option value="1">submit</option>
+                            <option value="2">reset</option>
+                        </select>
+                    </label>
+                </h5>
+                <button type="submit" class="btn btn-outline-dark" style="min-width: 10rem; margin: 0.5rem auto 0.5rem 3rem">Save</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
